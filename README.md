@@ -32,7 +32,7 @@ Finally, use `calcExpr` to calculate the expression and get its result. After th
 int main()
 {
     int err = 0;
-    ExprParser expr("12 + 4 * (24.3 - x^(y - 2) / 8)", err);
+    ExprParser expr("12 + sin(4) * (24.3 - x^(y - 2) / 8)", err);
     if (err)
     {
         // If error
